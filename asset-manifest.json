@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Bitcoin-Explorer/static/css/main.e6c13ad2.css",
-    "main.js": "/Bitcoin-Explorer/static/js/main.3a320e0b.js",
+    "main.css": "/Bitcoin-Explorer/static/css/main.92a28c46.css",
+    "main.js": "/Bitcoin-Explorer/static/js/main.6373aa1d.js",
+    "static/media/usa.png": "/Bitcoin-Explorer/static/media/usa.60c7d34f75799e443d80.png",
+    "static/media/logo.png": "/Bitcoin-Explorer/static/media/logo.995f1e672a3552f02c3b.png",
     "index.html": "/Bitcoin-Explorer/index.html",
-    "main.e6c13ad2.css.map": "/Bitcoin-Explorer/static/css/main.e6c13ad2.css.map",
-    "main.3a320e0b.js.map": "/Bitcoin-Explorer/static/js/main.3a320e0b.js.map"
+    "main.92a28c46.css.map": "/Bitcoin-Explorer/static/css/main.92a28c46.css.map",
+    "main.6373aa1d.js.map": "/Bitcoin-Explorer/static/js/main.6373aa1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.3a320e0b.js"
+    "static/css/main.92a28c46.css",
+    "static/js/main.6373aa1d.js"
   ]
 }
