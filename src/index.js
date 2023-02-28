@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import {HashRouter } from "react-router-dom";
 import './index.css';
 import Navbar from './components/Navbar/Navbar';
+import NetworkGraph from './components/NetworkGraph/NetworkGraph';
+import HashrateGraph from './components/HashrateGraph/HashrateGraph'
+import BlockSizeGraph from './components/BlockSizeGraph/BlockSizeGraph';
 
 import {
   Routes,
@@ -16,6 +19,9 @@ root.render(
     <Route exact path ="/" element={
       <div>
         <Navbar />
+        <NetworkGraph />
+        <HashrateGraph />
+        <BlockSizeGraph />
       </div>
     } />
     </Routes>

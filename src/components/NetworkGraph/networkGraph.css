@@ -1,0 +1,30 @@
+.graph {
+    background-image: linear-gradient(
+        -45deg, 
+        #1c2731 0%, 
+        black 25%, 
+        #1c2731 51%, 
+        black 100%
+    );  
+    background-size: 300% 300%;
+    width: 50%;
+    position: relative;
+    margin-top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    animation: animate_bg 20s infinite;
+}
+
+@media screen and (max-width: 1300px) {
+    .graph {
+        width: auto;
+        margin-right: 12px;
+    }
+}
+
+@keyframes animate_bg { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
