@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {HashRouter } from "react-router-dom";
 import './index.css';
+import Navbar from './components/Navbar/Navbar';
 
 import {
   Routes,
@@ -14,7 +15,7 @@ root.render(
     <Routes>
     <Route exact path ="/" element={
       <div>
-        Hello
+        <Navbar />
       </div>
     } />
     </Routes>

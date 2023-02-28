@@ -1,0 +1,115 @@
+.navbar {
+    height: 4rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr 0fr;
+    align-items: center;
+    background-color: black;
+}
+
+.logo__link {
+    padding-left: 2rem;
+    height: 50px;
+    width: 50px;
+}
+
+.logo{
+    height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.search__bar input {
+    height: 50px;
+    width: 35rem;
+    background-color: black;
+    border: 2px var(--primary-color) solid;
+    border-radius: 50px 0 0 50px;
+    color: white;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.search__bar input:focus{
+    outline: none;
+}
+
+.search__bar button {
+    height: 54px;
+    width: 55px;
+    border: 2px var(--primary-color) solid;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    cursor: pointer;
+    border-left: 0;
+}
+
+.search__bar button:hover {
+    background: var(--primary-color);
+}
+
+.search__bar button:hover svg {
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.search__bar button svg {
+    color: var(--primary-color);
+    width: 27px;
+    height: 27px;
+}
+
+.language__btn {
+    padding-right: 1rem;
+    width: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar {
+        display:flex;
+    }
+    .logo__link {
+        padding: 0 .5rem 0 1rem;
+    }
+
+    .search__bar {
+        width: 80%;
+        position: absolute;
+        left: 0;
+    }
+
+    .search__bar input {
+        visibility: hidden;
+        position: relative;
+        border-radius: 50px;
+        left: 1rem;
+        width: 70%;
+    }
+
+    .search__bar button {
+        width: 55px;
+        border: none;
+        background: none;
+        position: absolute;
+        margin-left: 1rem;
+    }
+
+    .search__bar button:hover {
+        background: none;
+    }
+
+    .search__bar button:hover svg {
+        color: var(--primary-color);
+        width: 27px;
+        height: 27px;
+    }
+
+    .language__btn {
+        position: absolute;
+        padding: 0 .5rem 0 .5rem;
+        right: 0;
+    }
+}

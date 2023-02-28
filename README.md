@@ -1,1 +1,1 @@
-# Public Web Bitcoin Blockchain Explorer
+# Bitcoin Blockchain Public Web Explorer
