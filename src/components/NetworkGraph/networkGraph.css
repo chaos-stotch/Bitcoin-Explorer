@@ -9,7 +9,8 @@
     background-size: 300% 300%;
     width: 50%;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;

@@ -4,6 +4,11 @@
   border: 0;
 }
 
+a {
+  color: #F7931A;
+  font-style: normal;
+}
+
 body {
   background: var(--secondary-color);
   color: white;

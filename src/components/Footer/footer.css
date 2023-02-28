@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+}
+
+footer span {
+    margin-left: 1rem;
+}
+
+.githubLink {
+    width: 35px;
+    height: 35px;
+}

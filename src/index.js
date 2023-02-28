@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import NetworkGraph from './components/NetworkGraph/NetworkGraph';
 import HashrateGraph from './components/HashrateGraph/HashrateGraph'
 import BlockSizeGraph from './components/BlockSizeGraph/BlockSizeGraph';
+import Footer from './components/Footer/Footer';
 
 import {
   Routes,
@@ -22,6 +23,7 @@ root.render(
         <NetworkGraph />
         <HashrateGraph />
         <BlockSizeGraph />
+        <Footer />
       </div>
     } />
     </Routes>
