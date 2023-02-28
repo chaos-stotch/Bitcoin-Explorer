@@ -85,8 +85,13 @@
         visibility: hidden;
         position: relative;
         border-radius: 50px;
-        left: 1rem;
+        left: 4.5rem;
         width: 70%;
+    }
+
+    .search__bar input.input__active {
+        visibility: visible;
+        z-index: 3;
     }
 
     .search__bar button {
@@ -106,6 +111,7 @@
         width: 27px;
         height: 27px;
     }
+
 
     .language__btn {
         position: absolute;
