@@ -1,18 +1,18 @@
-export const BitcoinPrice = [
+export const Difficulty = [
     {
         id: 1,
         year: 2015,
-        bitcoinPrice: 1000
+        bitcoinPrice: 5000
     },
     {
         id: 2,
         year: 2016,
-        bitcoinPrice: 2000
+        bitcoinPrice: 2100
     },
     {
         id: 3,
         year: 2017,
-        bitcoinPrice: 2500
+        bitcoinPrice: 1000
     },
     {
         id: 4,
@@ -42,6 +42,6 @@ export const BitcoinPrice = [
     {
         id: 9,
         year: 2023,
-        bitcoinPrice: 4000
+        bitcoinPrice: 4500
     }
 ]
