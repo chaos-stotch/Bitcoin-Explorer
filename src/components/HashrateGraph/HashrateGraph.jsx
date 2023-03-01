@@ -16,7 +16,7 @@ function HashrateGraph() {
   
   return (
     <div>
-      <div className="graph">
+      <div className="graph v2">
         <Bar data={userData} options={{responsive: true}} />
       </div>
     </div>

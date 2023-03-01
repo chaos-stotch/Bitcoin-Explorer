@@ -7,6 +7,8 @@ import NetworkGraph from './components/NetworkGraph/NetworkGraph';
 import HashrateGraph from './components/HashrateGraph/HashrateGraph'
 import BlockSizeGraph from './components/BlockSizeGraph/BlockSizeGraph';
 import Footer from './components/Footer/Footer';
+import BreakingNews from './components/BreakingNews/BreakingNews';
+import BackgroundAnimation from './components/BackgroundAnimation/BackgroundAnimation';
 
 import {
   Routes,
@@ -20,6 +22,8 @@ root.render(
     <Route exact path ="/" element={
       <div>
         <Navbar />
+        <BreakingNews />
+        <BackgroundAnimation />
         <NetworkGraph />
         <HashrateGraph />
         <BlockSizeGraph />

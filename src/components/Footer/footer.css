@@ -10,6 +10,11 @@ footer span {
     margin-left: 1rem;
 }
 
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .githubLink {
     width: 35px;
     height: 35px;
