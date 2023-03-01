@@ -7,8 +7,7 @@ body{
 }
 
 .area{
-    background: var(--secondary-color);  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    background: linear-gradient(to left, #1abc9c9d, #2C3A47);  
     width: 100%;
     display:table;
     height:100%;
